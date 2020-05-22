@@ -117,7 +117,6 @@ PS> wsl -l -v
   Ubuntu                 Running         2
   docker-desktop         Running         2
   docker-desktop-data    Running         2
-PS> wsl --set-version Ubuntu 2
 ```
 
 ## 6. [Visual Studio Code](https://code.visualstudio.com/) & [Remote Development Extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack)
