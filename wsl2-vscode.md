@@ -84,7 +84,7 @@ $ ninja --version
 
 ### 4.2 [ArchWSL](https://github.com/yuk7/ArchWSL) (Optional)
 Windows Store에서 제공하지는 않지만 WSL에 Archlinux를 설치하여 사용할 수도 있다.  
-한국어로 설명된 좋은 자료가 있어 해당 레포([Pommier1117/ArchWSL-GUIDE](https://github.com/Pommier1117/ArchWSL-GUIDE))로 대체한다.
+한국어로 설명된 좋은 자료가 있어 해당 레포([POMMI3R/ArchWSL-GUIDE](https://github.com/POMMI3R/ArchWSL-GUIDE))로 대체한다.
 
 ## 5. Docker Desktop for Windows Edge
 
