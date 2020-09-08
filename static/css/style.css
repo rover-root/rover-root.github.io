@@ -1,0 +1,82 @@
+@font-face {
+    font-family: SourceHanSerifKr-Regular;
+    src: url(../font/SourceHanSerifKR-Regular_subset.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: SourceHanSerifKr-SemiBold;
+    src: url(../font/SourceHanSerifKR-SemiBold_subset.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: SourceHanSerifKr-Bold;
+    src: url(../font/SourceHanSerifKR-Bold_subset.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: SourceHanSerifKr-Medium;
+    src: url(../font/SourceHanSerifKR-Medium_subset.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: SourceHanSerifKr-Heavy;
+    src: url(../font/SourceHanSerifKR-Heavy_subset.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: SourceHanSerifKr-Light;
+    src: url(../font/SourceHanSerifKR-Light_subset.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: SourceHanSerifKr-ExtraLight;
+    src: url(../font/SourceHanSerifKR-ExtraLight_subset.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: STIX2Text-Regular;
+    src: url(../font/STIX2Text-Regular.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: STIX2Text-Bold;
+    src: url(../font/STIX2Text-Bold.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: STIX2Text-BoldItalic;
+    src: url(../font/STIX2Text-BoldItalic.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: STIX2Text-Italic;
+    src: url(../font/STIX2Text-Italic.woff2) format('woff2');
+}
+
+body {
+    margin: 5% auto;
+    background: #f2f2f2;
+    color: #444444;
+    font-feature-settings: "kern" 1;
+    font-kerning: normal;
+    -webkit-font-smoothing: antialiased;
+    font-family: "STIX2Text-Regular", "SourceHanSerifKr-Regular";
+    font-size: 1.5vw;
+    /*line-height: 1.8;*/
+    /*text-shadow: 0 1px 0 #ffffff;*/
+    max-width: 75%;
+}
+
+code {
+    background: white;
+}
+
+a {
+    /*border-bottom: 1px solid #444444;*/
+    color: #444444;
+    text-decoration: underline;
+}
+
+a:hover {
+    border-bottom: 0;
+}
